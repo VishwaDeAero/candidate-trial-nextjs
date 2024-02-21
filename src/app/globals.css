@@ -3,23 +3,31 @@
 @tailwind utilities;
 
 /* Colors */
-.bg-theme-primary{
+.bg-theme-primary {
     background-color: #F7F7F7;
 }
-.bg-theme-secondary{
+
+.bg-theme-secondary {
     background-color: #EFEAE5;
 }
-.bg-theme-button{
+
+.bg-theme-button {
     background-color: #CCAE92;
 }
-.text-theme-team{
+
+.text-theme-team {
     color: #CCAE92;
 }
-.text-theme-footer{
+
+.text-theme-footer {
     color: #4B4F52;
 }
 
+.columns-2 {
+    column-count: 2;
+}
+
 /* Hero Section */
-.hero-theme-banner{
+.hero-theme-banner {
     min-height: 600px;
 }
